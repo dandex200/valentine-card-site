@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: loveLetters;
+    src: url(./fonts/love-letters.regular.ttf);
+}
+@font-face {
+    font-family: lovedbytheking;
+    src: url(./fonts/LovedbytheKing-Regular.ttf);
+}
+.loginbody {
+    background-color: #ff9999;
+    font-family: loveletters;
+    color: #FFFFFF;
+    font-size: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.loginbody form {
+    display: flex;
+    padding: 20px;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 20px;
+    margin-top: 200px;
+    font-weight: 500;
+    border: 10px double #FFFFFF;
+    width: 400px;
+}
+.body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #ff9999;
+    color: #FFFFFF;
+
+}
+.header {
+    display: flex;
+    font-family: loveLetters;
+    font-size: 62px;
+    font-weight: 400;
+    background-color: #ff9999;
+    
+}
+.cardouter {
+    border: 20px double #FFFFFF;
+    background-color: #99ccff;
+}
+.card {
+    display: flex;
+    width: 800px;
+    height: 550px;
+    justify-content: space-around;
+    background-color: #ffcc99;
+    gap: 15px;
+}
+.left-side {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    /*margin-left: -90px;*/
+    margin-left: 44px;
+    margin-right: 45px;
+}
+.btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.arrows {
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    /*margin-left: -85px;*/
+    border: 2px solid white;
+    height: 550px;
+}
+.right-side {
+    align-self: center;
+    width:fit-content;
+    margin-left: 45px;
+    margin-right: 44px;
+}
+.right-side p{
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    background-color: #ff9999;
+    border: 5px ridge #FFFFFF;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size:larger;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+}
